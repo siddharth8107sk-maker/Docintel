@@ -1,0 +1,38 @@
+[
+ {
+  "chunk_id": "fake_p1_t0",
+  "doc_id": "fake.pdf",
+  "page": 1,
+  "section": "Overview",
+  "type": "text",
+  "content": "Acme Corp was founded in 1999 and employs 1,200 people.",
+  "page_image": "docintel/answering/fixtures/fake_p1_missing.png"
+ },
+ {
+  "chunk_id": "fake_p2_c0",
+  "doc_id": "fake.pdf",
+  "page": 2,
+  "section": "Financials",
+  "type": "chart",
+  "content": "Bar chart: revenue 2023 = 78 M USD, 2024 = 92 M USD.",
+  "page_image": "docintel/answering/fixtures/fake_p2.png"
+ },
+ {
+  "chunk_id": "fake_p3_tb0",
+  "doc_id": "fake.pdf",
+  "page": 3,
+  "section": "Segments",
+  "type": "table",
+  "content": "| Segment | Revenue |\n|---|---|\n| Cloud | 40 |\n| Devices | 52 |",
+  "page_image": "docintel/answering/fixtures/fake_p3.png"
+ },
+ {
+  "chunk_id": "fake_p3_tb1",
+  "doc_id": "fake.pdf",
+  "page": 3,
+  "section": "Segments",
+  "type": "ocr",
+  "content": "Cloud 40  Devices 52",
+  "page_image": "docintel/answering/fixtures/fake_p3.png"
+ }
+]

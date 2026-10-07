@@ -1,0 +1,7 @@
+{
+  "backend": "tfidf",
+  "model": "tfidf",
+  "n_chunks": 137,
+  "source": "C:\\Users\\lesli\\OneDrive\\Desktop\\semester-3\\docintel_project\\data\\chunks.jsonl",
+  "source_mtime": 1791371063.1241367
+}

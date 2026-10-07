@@ -1,0 +1,143 @@
+{
+  "_note": "Expected values taken from data/docs/README_sample_facts.md. Text values are matched case-insensitively as substrings; numbers within 0.5%.",
+  "questions": [
+    {
+      "id": "q01",
+      "category": "text",
+      "question": "What are the three reasons given for the decline in efficiency from Q2 to Q4?",
+      "expected_doc": "factory_report_2025.pdf",
+      "expected_page": 3,
+      "expected_values": [
+        "spindle",
+        "aluminium",
+        "turnover"
+      ],
+      "unanswerable": false
+    },
+    {
+      "id": "q02",
+      "category": "text",
+      "question": "How many employees does the plant have in total, and how many work on the lines?",
+      "expected_doc": "factory_report_2025.pdf",
+      "expected_page": 1,
+      "expected_values": [
+        "240",
+        "168"
+      ],
+      "unanswerable": false
+    },
+    {
+      "id": "q03",
+      "category": "table",
+      "question": "What was the output in units in Q2, according to Table 1?",
+      "expected_doc": "factory_report_2025.pdf",
+      "expected_page": 2,
+      "expected_values": [
+        "139,000"
+      ],
+      "unanswerable": false
+    },
+    {
+      "id": "q04",
+      "category": "table",
+      "question": "In the downtime-by-cause table, how many hours of mechanical failure downtime occurred in Q4?",
+      "expected_doc": "maintenance_summary_2025.pdf",
+      "expected_page": 1,
+      "expected_values": [
+        "71"
+      ],
+      "unanswerable": false
+    },
+    {
+      "id": "q05",
+      "category": "chart",
+      "question": "Reading Figure 1, in which quarter was production efficiency highest and what was the value?",
+      "expected_doc": "factory_report_2025.pdf",
+      "expected_page": 2,
+      "expected_values": [
+        "Q2",
+        "92"
+      ],
+      "unanswerable": false
+    },
+    {
+      "id": "q06",
+      "category": "chart",
+      "question": "From the downtime chart/table, which quarter had the lowest total downtime and how many hours?",
+      "expected_doc": "maintenance_summary_2025.pdf",
+      "expected_page": 1,
+      "expected_values": [
+        "Q2",
+        "119"
+      ],
+      "unanswerable": false
+    },
+    {
+      "id": "q07",
+      "category": "cross-document",
+      "question": "Which cause of Q4 downtime in the maintenance summary explains the main reason for the efficiency decline in the factory report, and how many hours was it?",
+      "expected_doc": null,
+      "expected_page": null,
+      "expected_values": [
+        "mechanical",
+        "71"
+      ],
+      "unanswerable": false
+    },
+    {
+      "id": "q08",
+      "category": "cross-document",
+      "question": "Does the Q4 scrap rate in the factory report equal the Line 3 defect rate in the quality audit? Give both values.",
+      "expected_doc": null,
+      "expected_page": null,
+      "expected_values": [
+        "3.0"
+      ],
+      "unanswerable": false
+    },
+    {
+      "id": "q09",
+      "category": "math",
+      "question": "What is the percentage increase in mechanical failure downtime from Q2 to Q4?",
+      "expected_doc": "maintenance_summary_2025.pdf",
+      "expected_page": 1,
+      "expected_values": [
+        "153.6"
+      ],
+      "unanswerable": false
+    },
+    {
+      "id": "q10",
+      "category": "scanned",
+      "question": "In the scanned quality audit, what was the Line 3 defect rate and did it pass the limit?",
+      "expected_doc": "scanned_quality_audit.pdf",
+      "expected_page": 1,
+      "expected_values": [
+        "3.0",
+        "2.5"
+      ],
+      "unanswerable": false
+    },
+    {
+      "id": "q11",
+      "category": "scanned",
+      "question": "Who performed the quality audit and on what date?",
+      "expected_doc": "scanned_quality_audit.pdf",
+      "expected_page": 1,
+      "expected_values": [
+        "Mehta",
+        "14 November 2025"
+      ],
+      "unanswerable": false
+    },
+    {
+      "id": "q12",
+      "category": "unanswerable",
+      "question": "What was the plant's revenue in 2024?",
+      "expected_doc": null,
+      "expected_page": null,
+      "expected_values": [],
+      "unanswerable": true
+    }
+  ]
+}

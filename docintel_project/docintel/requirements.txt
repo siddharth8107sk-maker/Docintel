@@ -1,0 +1,13 @@
+pymupdf
+pdfplumber
+pytesseract
+pillow
+chromadb
+rank-bm25
+sentence-transformers
+anthropic
+streamlit
+reportlab
+matplotlib
+pytest
+pandas
